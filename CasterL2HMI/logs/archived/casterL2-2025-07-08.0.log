@@ -1,0 +1,720 @@
+2025-07-08 11:10:46 - Starting application using Java 21.0.7 with PID 9508 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 11:10:46 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 11:10:47 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 11:10:47 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 11:10:47 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 11:10:47 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 11:10:47 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 11:10:47 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 11:10:48 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 11:10:48 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:10:48 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:10:48 - Started application in 3.265 seconds (process running for 5.894)
+2025-07-08 11:10:48 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:10:48 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 11:10:48 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 11:10:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:10:59 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:11:15 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 11:11:15 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 11:11:15 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 11:11:15 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 11:11:15 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 11:17:00 - Starting application using Java 21.0.7 with PID 3956 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 11:17:00 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 11:17:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 11:17:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 11:17:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 11:17:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 11:17:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 11:17:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 11:17:01 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 11:17:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:17:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:17:02 - Started application in 2.556 seconds (process running for 4.032)
+2025-07-08 11:17:02 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:17:02 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 11:17:02 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 11:17:30 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:17:33 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:18:01 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:18:05 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 11:18:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 11:18:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 11:18:05 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 11:18:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 11:57:44 - Starting application using Java 21.0.7 with PID 3128 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 11:57:44 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 11:57:46 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 11:57:46 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 1
+2025-07-08 11:57:46 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 11:57:46 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 11:57:46 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 11:57:46 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 11:57:46 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 11:57:46 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 11:57:46 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:57:46 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 11:57:46 - Started application in 2.644 seconds (process running for 3.799)
+2025-07-08 11:57:46 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:57:46 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 11:57:46 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 11:57:48 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:57:56 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 11:58:23 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 11:58:23 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 11:58:23 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 11:58:23 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 11:58:23 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:01:59 - Starting application using Java 21.0.7 with PID 9268 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:01:59 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:02:00 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:02:00 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 1
+2025-07-08 12:02:00 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:02:00 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:02:00 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:02:00 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:02:00 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:02:00 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:02:00 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:02:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:02:01 - Started application in 2.35 seconds (process running for 3.72)
+2025-07-08 12:02:01 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:02:01 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:02:01 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:02:03 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:02:07 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:05:02 - Starting application using Java 21.0.7 with PID 2968 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:05:02 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:05:04 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:05:04 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 1
+2025-07-08 12:05:04 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:05:04 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:05:04 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:05:04 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:05:04 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:05:04 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:05:04 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:05:04 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:05:04 - Started application in 2.451 seconds (process running for 3.66)
+2025-07-08 12:05:04 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:05:04 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:05:04 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:05:06 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:05:13 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:05:25 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:05:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 12:05:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:05:25 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:05:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:07:15 - Starting application using Java 21.0.7 with PID 3392 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:07:15 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:07:16 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:07:16 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 1
+2025-07-08 12:07:16 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:07:16 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:07:16 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:07:16 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:07:16 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:07:16 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:07:16 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:07:16 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:07:16 - Started application in 2.462 seconds (process running for 3.647)
+2025-07-08 12:07:16 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:07:16 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:07:16 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:07:20 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:07:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 12:07:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:07:20 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:07:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:07:22 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:07:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 12:07:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:07:22 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:07:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:07:32 - Starting application using Java 21.0.7 with PID 1216 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:07:32 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:07:33 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:07:33 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 1
+2025-07-08 12:07:33 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:07:33 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:07:33 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:07:33 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:07:33 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:07:33 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:07:33 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:07:33 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:07:33 - Started application in 2.528 seconds (process running for 3.786)
+2025-07-08 12:07:34 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:07:34 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:07:34 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:07:37 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:07:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:07:49 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 157] - index of plan 9 is 5
+2025-07-08 12:07:49 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 159] - Plan 9 Committed Successfully
+2025-07-08 12:09:08 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:09:08 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025]] Written to file
+2025-07-08 12:09:08 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:09:08 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:09:08 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:09:36 - Starting application using Java 21.0.7 with PID 8552 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:09:36 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:09:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:09:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 2
+2025-07-08 12:09:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:09:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:09:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:09:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:09:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:09:38 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:09:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:09:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:09:38 - Started application in 2.382 seconds (process running for 3.606)
+2025-07-08 12:09:38 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:09:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:09:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:09:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:09:44 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:09:50 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 9 is 5
+2025-07-08 12:09:50 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 9 Committed Successfully
+2025-07-08 12:09:53 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:09:53 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 12:09:53 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:09:53 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:09:53 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:13:00 - Starting application using Java 21.0.7 with PID 7724 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:13:00 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:13:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:13:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 3
+2025-07-08 12:13:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:13:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:13:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:13:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:13:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:13:01 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:13:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:13:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:13:01 - Started application in 2.357 seconds (process running for 3.565)
+2025-07-08 12:13:01 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:13:02 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:13:02 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:13:03 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:13:06 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:13:19 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 9 is 5
+2025-07-08 12:13:19 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 9 Committed Successfully
+2025-07-08 12:13:22 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:13:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 12:13:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:13:22 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:13:22 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:57:41 - Starting application using Java 21.0.7 with PID 3160 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 12:57:41 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 12:57:43 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 12:57:43 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 4
+2025-07-08 12:57:43 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 12:57:43 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 12:57:43 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 12:57:43 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 12:57:43 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 12:57:43 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 12:57:43 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:57:43 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 12:57:43 - Started application in 2.605 seconds (process running for 3.816)
+2025-07-08 12:57:43 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:57:43 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 12:57:43 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 12:57:45 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:57:56 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 12:58:06 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 143] - index of plan 9 is 5
+2025-07-08 12:58:06 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 145] - Plan 9 Committed Successfully
+2025-07-08 12:58:16 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 12:58:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 12:58:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 12:58:16 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 12:58:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:18:38 - Starting application using Java 21.0.7 with PID 9936 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 13:18:38 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 13:18:39 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 13:18:39 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 5
+2025-07-08 13:18:39 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 13:18:39 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 13:18:39 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 13:18:39 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 13:18:39 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 13:18:39 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 13:18:39 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:18:39 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:18:39 - Started application in 1.611 seconds (process running for 2.372)
+2025-07-08 13:18:39 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:18:39 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 13:18:39 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 13:18:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:29:21 - Starting application using Java 21.0.7 with PID 9392 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 13:29:21 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 13:29:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 13:29:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 5
+2025-07-08 13:29:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 13:29:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 13:29:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 13:29:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 13:29:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 13:29:22 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 13:29:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:29:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:29:22 - Started application in 1.658 seconds (process running for 2.387)
+2025-07-08 13:29:22 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:29:22 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 13:29:22 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 13:29:23 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:29:47 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:29:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:30:04 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:30:14 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:14 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:25 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:30:33 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:33 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:41 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:41 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:41 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:41 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 13:30:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 13:30:55 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:30:55 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:31:03 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 13:31:03 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]]] Written to file
+2025-07-08 13:31:03 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:31:03 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 13:31:03 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:33:12 - Starting application using Java 21.0.7 with PID 8176 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 13:33:12 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 13:33:13 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 13:33:13 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 13
+2025-07-08 13:33:13 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 13:33:13 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 13:33:13 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 13:33:13 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 13:33:13 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 13:33:13 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 13:33:13 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:33:13 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:33:13 - Started application in 1.725 seconds (process running for 2.465)
+2025-07-08 13:33:13 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:33:14 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 13:33:14 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 13:33:16 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 13:33:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 13:33:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:33:16 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 13:33:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:33:18 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:33:26 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:33:33 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 7 is 4
+2025-07-08 13:33:33 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 7 Committed Successfully
+2025-07-08 13:33:37 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 13:33:37 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]]] Written to file
+2025-07-08 13:33:37 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:33:37 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 13:33:37 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:41:47 - Starting application using Java 21.0.7 with PID 9444 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 13:41:47 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 13:41:48 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 13:41:48 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 14
+2025-07-08 13:41:48 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 13:41:48 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 13:41:48 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 13:41:48 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 13:41:48 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 13:41:48 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 13:41:48 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:41:48 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 13:41:48 - Started application in 1.924 seconds (process running for 2.735)
+2025-07-08 13:41:48 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:41:48 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 13:41:48 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 13:41:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:41:57 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:42:03 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:42:06 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 13:42:17 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 13:42:17 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]]] Written to file
+2025-07-08 13:42:17 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 13:42:17 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 13:42:17 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:30:20 - Starting application using Java 21.0.7 with PID 2396 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 14:30:20 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 14:30:21 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 14:30:21 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 15
+2025-07-08 14:30:21 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 14:30:21 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 14:30:21 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 14:30:21 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 14:30:21 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 14:30:21 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 14:30:21 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:30:21 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:30:21 - Started application in 2.296 seconds (process running for 3.084)
+2025-07-08 14:30:21 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:30:21 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 14:30:21 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 14:30:23 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:30:28 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:30:32 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 14:30:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]]] Written to file
+2025-07-08 14:30:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:30:32 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 14:30:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:44:59 - Starting application using Java 21.0.7 with PID 9896 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 14:44:59 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 14:44:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 14:44:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 15
+2025-07-08 14:44:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 14:44:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 14:44:59 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 14:44:59 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 14:44:59 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 14:44:59 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 14:45:00 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:45:00 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:45:00 - Started application in 1.556 seconds (process running for 2.291)
+2025-07-08 14:45:00 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:45:00 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 14:45:00 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 14:45:04 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:45:08 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:45:25 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 14:45:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]]] Written to file
+2025-07-08 14:45:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:45:25 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 14:45:25 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:45:41 - Starting application using Java 21.0.7 with PID 10208 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 14:45:41 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 14:45:42 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 14:45:42 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 15
+2025-07-08 14:45:42 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 14:45:42 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 14:45:42 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 14:45:42 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 14:45:42 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 14:45:42 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 14:45:42 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:45:42 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:45:42 - Started application in 1.823 seconds (process running for 2.522)
+2025-07-08 14:45:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:45:43 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 14:45:43 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 14:45:44 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:45:55 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:46:04 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 14:46:04 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 14:46:10 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:47:42 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 14:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3]]]] Written to file
+2025-07-08 14:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:47:42 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 14:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:48:02 - Starting application using Java 21.0.7 with PID 6744 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 14:48:02 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 14:48:03 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 14:48:03 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 16
+2025-07-08 14:48:03 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 14:48:03 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 14:48:03 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 14:48:03 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 14:48:03 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 14:48:03 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 14:48:03 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:48:03 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:48:03 - Started application in 1.546 seconds (process running for 2.349)
+2025-07-08 14:48:03 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:48:03 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 14:48:03 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 14:48:05 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:48:11 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:48:25 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 12 is 6
+2025-07-08 14:48:25 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 12 Committed Successfully
+2025-07-08 14:48:31 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:48:37 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 9 is 5
+2025-07-08 14:48:37 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 9 Committed Successfully
+2025-07-08 14:48:57 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:49:27 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 14:49:27 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]]] Written to file
+2025-07-08 14:49:27 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:49:27 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 14:49:27 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:49:39 - Starting application using Java 21.0.7 with PID 9160 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 14:49:39 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 14:49:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 14:49:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 14:49:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 14:49:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 14:49:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 14:49:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 14:49:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 14:49:40 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 14:49:40 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:49:40 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 14:49:40 - Started application in 1.668 seconds (process running for 2.309)
+2025-07-08 14:49:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:49:40 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 14:49:40 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 14:49:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 14:49:50 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+2
+3
+4
+5
+7
+9
+12
+
+2025-07-08 14:49:50 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=49, planName=2, planCreationTime=Sat Jul 05 17:27:04 IST 2025, plannedProducts=null], DefaultPlan [planId=50, planName=3, planCreationTime=Sat Jul 05 17:27:06 IST 2025, plannedProducts=null], DefaultPlan [planId=53, planName=4, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]]] Written to file
+2025-07-08 14:49:50 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 14:49:50 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+
+2025-07-08 14:49:50 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [] Written to file
+2025-07-08 15:14:04 - Starting application using Java 21.0.7 with PID 9460 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 15:14:04 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 15:14:05 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 15:14:05 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 15:14:05 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 51
+2025-07-08 15:14:05 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 61
+2025-07-08 15:14:05 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 15:14:05 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 15:14:05 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 15:14:05 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 15:14:05 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 15:14:05 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 15:14:05 - Started application in 1.851 seconds (process running for 2.61)
+2025-07-08 15:14:05 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 15:14:05 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 15:14:05 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 15:14:07 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 15:14:34 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 15:14:35 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 15:14:46 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: addNewHeat] [Line: 61] - new heat 2 Created 
+2025-07-08 15:14:46 - Can not retrieve property 'creationDate' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@4484802e with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property creationDate
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

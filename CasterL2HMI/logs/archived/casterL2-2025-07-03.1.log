@@ -1,0 +1,8 @@
+2025-07-03 15:59:04 - Starting application using Java 21.0.7 with PID 5528 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-03 15:59:04 - No active profile set, falling back to 1 default profile: "default"
+2025-07-03 15:59:05 - [Class: PropertyReader] [Method: lambda$loadProperties$0] [Line: 93] - Properties Key : heat.heatId Value 41
+2025-07-03 15:59:05 - [Class: PropertyReader] [Method: lambda$loadProperties$0] [Line: 93] - Properties Key : plan.planId Value 39
+2025-07-03 15:59:05 - [Class: DefaultCasterAdapter] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-03 15:59:05 - [Class: DefaultHeatPool] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-03 15:59:05 - [Class: DefaultHeatPool] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-03 15:59:06 - Started application in 2.302 seconds (process running for 3.597)

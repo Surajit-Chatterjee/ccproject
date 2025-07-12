@@ -1,0 +1,67 @@
+{"properties": [
+  {
+    "name": "caster.id",
+    "type": "java.lang.String",
+    "description": "A description for 'caster.id'"
+  },
+  {
+    "name": "caster.name",
+    "type": "java.lang.String",
+    "description": "A description for 'caster.name'"
+  },
+  {
+    "name": "heat.heatId",
+    "type": "java.lang.String",
+    "description": "A description for 'heat.heatId'"
+  },
+  {
+    "name": "property-file",
+    "type": "java.lang.String",
+    "description": "A description for 'property-file'"
+  },
+  {
+    "name": "serializer-file-heat",
+    "type": "java.lang.String",
+    "description": "A description for 'serializer-file-heat'"
+  },
+  {
+    "name": "serializer-file-plan",
+    "type": "java.lang.String",
+    "description": "A description for 'serializer-file-plan'"
+  },
+  {
+    "name": "css-resource-name",
+    "type": "java.lang.String",
+    "description": "A description for 'css-resource-name'"
+  },
+  {
+    "name": "lot-plan-used",
+    "type": "java.lang.String",
+    "description": "A description for 'lot-plan-used'"
+  },
+  {
+    "name": "heat-based-plan-used",
+    "type": "java.lang.String",
+    "description": "A description for 'heat-based-plan-used'"
+  },
+  {
+    "name": "lot-planning-used",
+    "type": "java.lang.String",
+    "description": "A description for 'lot-planning-used'"
+  },
+  {
+    "name": "nr-of-strand",
+    "type": "java.lang.String",
+    "description": "A description for 'nr-of-strand'"
+  },
+  {
+    "name": "view-path",
+    "type": "java.lang.String",
+    "description": "A description for 'view-path'"
+  },
+  {
+    "name": "fxml-suffix",
+    "type": "java.lang.String",
+    "description": "A description for 'fxml-suffix'"
+  }
+]}

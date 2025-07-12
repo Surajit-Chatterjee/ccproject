@@ -1,0 +1,35 @@
+2025-07-03 17:03:15 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:17 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:18 - CSS Error parsing file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css: Invalid color specification while parsing '-fx-background-color' at [14,39]
+2025-07-03 17:03:18 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:21 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:21 - CSS Error parsing file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css: Invalid color specification while parsing '-fx-background-color' at [14,39]
+2025-07-03 17:03:22 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:25 - [Class: pt.cc.plan.SimplePlanPool] [Method: removePlan] [Line: 91] - removePlan DefaultPlan [planId=30, planName=2, planCreationTime=Wed Jul 02 12:23:15 IST 2025]
+2025-07-03 17:03:25 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: planPoolEventPerformed] [Line: 139] - planPoolEventPerformed plan remove DefaultPlan [planId=30, planName=2, planCreationTime=Wed Jul 02 12:23:15 IST 2025]
+2025-07-03 17:03:25 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: planPoolEventPerformed] [Line: 142] - Heat 2 will be modified no plan attached
+2025-07-03 17:03:25 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 163] - Heat 2 Committed Successfully, Reason is 2 Plan is UnAssigned from the Heat 2
+2025-07-03 17:03:38 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:38 - CSS Error parsing file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css: Invalid color specification while parsing '-fx-background-color' at [14,39]
+2025-07-03 17:03:39 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:43 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 17:03:55 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 163] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 8
+2025-07-03 17:04:34 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 58] - At Predestroy : Available plan in pool   
+1
+6
+7
+8
+9
+10
+11
+12
+
+2025-07-03 17:04:34 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=29, planName=1, planCreationTime=Wed Jul 02 12:23:13 IST 2025], DefaultPlan [planId=35, planName=6, planCreationTime=Wed Jul 02 12:31:04 IST 2025], DefaultPlan [planId=36, planName=7, planCreationTime=Wed Jul 02 12:31:06 IST 2025], DefaultPlan [planId=40, planName=8, planCreationTime=Thu Jul 03 15:59:14 IST 2025], DefaultPlan [planId=41, planName=9, planCreationTime=Thu Jul 03 16:20:27 IST 2025], DefaultPlan [planId=42, planName=10, planCreationTime=Thu Jul 03 16:21:10 IST 2025], DefaultPlan [planId=43, planName=11, planCreationTime=Thu Jul 03 16:25:38 IST 2025], DefaultPlan [planId=45, planName=12, planCreationTime=Thu Jul 03 16:49:30 IST 2025]] Written to file
+2025-07-03 17:04:34 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=8, steelGrade=Q235B, creationDate=Thu Jul 03 11:26:00 IST 2025, heatState=PLAN, heatId=41, planId=null, planName=null], BaseHeat [heatName=9, steelGrade=J1234, creationDate=Thu Jul 03 16:44:12 IST 2025, heatState=PLAN, heatId=43, planId=36, planName=7], BaseHeat [heatName=1, steelGrade=J1234, creationDate=Thu Jul 03 16:44:23 IST 2025, heatState=PLAN, heatId=44, planId=29, planName=1], BaseHeat [heatName=2, steelGrade=K1890, creationDate=Thu Jul 03 16:44:33 IST 2025, heatState=PLAN, heatId=45, planId=40, planName=8]] Written to file
+2025-07-03 17:04:34 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+8 -- null
+9 -- 7
+1 -- 1
+2 -- 8
+
+2025-07-03 17:04:34 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=8, steelGrade=Q235B, creationDate=Thu Jul 03 11:26:00 IST 2025, heatState=PLAN, heatId=41, planId=null, planName=null], BaseHeat [heatName=9, steelGrade=J1234, creationDate=Thu Jul 03 16:44:12 IST 2025, heatState=PLAN, heatId=43, planId=36, planName=7], BaseHeat [heatName=1, steelGrade=J1234, creationDate=Thu Jul 03 16:44:23 IST 2025, heatState=PLAN, heatId=44, planId=29, planName=1], BaseHeat [heatName=2, steelGrade=K1890, creationDate=Thu Jul 03 16:44:33 IST 2025, heatState=PLAN, heatId=45, planId=40, planName=8]] Written to file

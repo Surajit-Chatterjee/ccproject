@@ -1,0 +1,277 @@
+2025-07-08 16:23:14 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:23:14 - Started application in 1.672 seconds (process running for 2.329)
+2025-07-08 16:23:14 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:23:14 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:23:14 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:23:15 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:23:17 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:23:24 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:23:25 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+
+2025-07-08 16:23:26 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:23:26 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:23:26 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:23:26 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:24:40 - Starting application using Java 21.0.7 with PID 8228 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:24:40 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:24:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:24:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:24:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:24:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 67
+2025-07-08 16:24:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:24:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:24:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:24:41 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:24:41 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:24:41 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:24:41 - Started application in 1.755 seconds (process running for 2.49)
+2025-07-08 16:24:41 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:24:41 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:24:41 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:24:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:24:44 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:29:46 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+
+2025-07-08 16:29:46 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:29:46 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:29:46 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:29:46 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:31:00 - Starting application using Java 21.0.7 with PID 5520 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:31:00 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:31:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:31:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:31:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:31:01 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 67
+2025-07-08 16:31:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:31:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:31:01 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:31:01 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:31:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:31:01 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:31:01 - Started application in 1.701 seconds (process running for 2.457)
+2025-07-08 16:31:01 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:31:01 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:31:01 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:31:03 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:31:04 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:31:13 - [Class: pt.cc.log.LoggerService] [Method: logError] [Line: 44] - 22 Plan Already Exists
+2025-07-08 16:31:16 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+
+2025-07-08 16:31:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:31:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:31:16 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:31:16 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:32:14 - Starting application using Java 21.0.7 with PID 12244 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:32:14 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:32:14 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:32:14 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:32:14 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:32:14 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 68
+2025-07-08 16:32:14 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:32:14 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:32:14 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:32:15 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:32:15 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:32:15 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:32:15 - Started application in 1.812 seconds (process running for 2.551)
+2025-07-08 16:32:15 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:32:15 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:32:15 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:32:16 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:32:18 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:32:25 - [Class: pt.cc.plan.SimplePlanPool] [Method: addNewPlan] [Line: 83] - Plan 223 Added Successfully
+2025-07-08 16:32:27 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:32:32 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+223
+
+2025-07-08 16:32:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]], DefaultPlan [planId=69, planName=223, totalWeight=0.0, planCreationTime=Tue Jul 08 16:32:25 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:32:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:32:32 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:32:32 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:35:39 - Starting application using Java 21.0.7 with PID 10988 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:35:39 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:35:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:35:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:35:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:35:40 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 69
+2025-07-08 16:35:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:35:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:35:40 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:35:40 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:35:40 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:35:40 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:35:40 - Started application in 1.761 seconds (process running for 2.519)
+2025-07-08 16:35:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:40 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:35:40 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:35:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:44 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:45 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:46 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:48 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:56 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:57 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:58 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:35:59 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:36:00 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+223
+
+2025-07-08 16:36:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]], DefaultPlan [planId=69, planName=223, totalWeight=0.0, planCreationTime=Tue Jul 08 16:32:25 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:36:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:36:00 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:36:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:37:25 - Starting application using Java 21.0.7 with PID 12260 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:37:25 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:37:26 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:37:26 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:37:26 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:37:26 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 69
+2025-07-08 16:37:26 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:37:26 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:37:26 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:37:26 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:37:26 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:37:26 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:37:26 - Started application in 1.899 seconds (process running for 2.643)
+2025-07-08 16:37:26 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:26 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:37:26 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:37:28 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:29 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:31 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:37 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:37 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:39 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:41 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:37:47 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+223
+
+2025-07-08 16:37:47 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]], DefaultPlan [planId=69, planName=223, totalWeight=0.0, planCreationTime=Tue Jul 08 16:32:25 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:37:47 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:37:47 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- null
+3 -- null
+
+2025-07-08 16:37:47 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=52, planId=null, planName=null], BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=null, planName=null]] Written to file
+2025-07-08 16:43:30 - Starting application using Java 21.0.7 with PID 8424 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-08 16:43:30 - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 16:43:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-08 16:43:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planProductId Value 18
+2025-07-08 16:43:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : heat.heatId Value 53
+2025-07-08 16:43:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$loadProperties$0] [Line: 91] - Properties Key : plan.planId Value 69
+2025-07-08 16:43:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-08 16:43:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-08 16:43:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-08 16:43:31 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-08 16:43:31 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:43:31 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-08 16:43:31 - Started application in 1.803 seconds (process running for 2.57)
+2025-07-08 16:43:31 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:43:31 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-08 16:43:31 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-08 16:43:35 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:43:37 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:43:45 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: addNewHeat] [Line: 61] - new heat 1 Created 
+2025-07-08 16:43:52 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:43:57 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 5
+2025-07-08 16:44:02 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:44:05 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 3 Committed Successfully, Reason is 3 assigned with plan 9
+2025-07-08 16:44:08 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-08 16:44:13 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: deleteHeat] [Line: 73] - Heat 2 removed from Pool true
+2025-07-08 16:44:21 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+4
+5
+7
+9
+12
+22
+23
+36
+2444
+444
+223
+
+2025-07-08 16:44:21 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=53, planName=4, totalWeight=0.0, planCreationTime=Mon Jul 07 09:01:03 IST 2025, plannedProducts=[]], DefaultPlan [planId=57, planName=5, totalWeight=0.0, planCreationTime=Mon Jul 07 14:08:04 IST 2025, plannedProducts=[]], DefaultPlan [planId=59, planName=7, totalWeight=0.0, planCreationTime=Mon Jul 07 14:27:27 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=14, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=60, planName=9, totalWeight=0.0, planCreationTime=Mon Jul 07 15:26:44 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=2, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=3, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=200.0, thickness=0.0, strandNumber=1], DefaultPlanProduct [planProductId=4, aimLength=2.0, minLength=2.0, maxLength=2.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=5, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=18, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=61, planName=12, totalWeight=0.0, planCreationTime=Mon Jul 07 15:36:40 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=6, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2], DefaultPlanProduct [planProductId=7, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=8, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=9, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=10, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=11, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=12, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=13, aimLength=12.0, minLength=12.0, maxLength=12.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1], DefaultPlanProduct [planProductId=16, aimLength=3.0, minLength=3.0, maxLength=3.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=3], DefaultPlanProduct [planProductId=17, aimLength=4.0, minLength=4.0, maxLength=4.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=4]]], DefaultPlan [planId=63, planName=22, totalWeight=0.0, planCreationTime=Tue Jul 08 16:08:23 IST 2025, plannedProducts=[]], DefaultPlan [planId=64, planName=23, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:45 IST 2025, plannedProducts=[]], DefaultPlan [planId=65, planName=36, totalWeight=0.0, planCreationTime=Tue Jul 08 16:13:52 IST 2025, plannedProducts=[]], DefaultPlan [planId=66, planName=2444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:14:54 IST 2025, plannedProducts=[]], DefaultPlan [planId=67, planName=444, totalWeight=0.0, planCreationTime=Tue Jul 08 16:15:18 IST 2025, plannedProducts=[]], DefaultPlan [planId=69, planName=223, totalWeight=0.0, planCreationTime=Tue Jul 08 16:32:25 IST 2025, plannedProducts=[]]] Written to file
+2025-07-08 16:44:21 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=60, planName=9], BaseHeat [heatName=1, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=54, planId=53, planName=4]] Written to file
+2025-07-08 16:44:21 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+3 -- 9
+1 -- 4
+
+2025-07-08 16:44:21 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=3, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=53, planId=60, planName=9], BaseHeat [heatName=1, netWeight=0.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=54, planId=53, planName=4]] Written to file

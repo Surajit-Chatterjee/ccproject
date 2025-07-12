@@ -1,0 +1,19 @@
+.root{
+    -fx-font-size: 11.0pt;
+    -fx-font-family: "Arial";
+    -fx-base: rgb(132.0, 145.0, 47.0);
+    -fx-background: rgb(225.0, 228.0, 203.0);
+}
+
+.button{
+    -fx-text-fill: rgb(49.0, 89.0, 23.0);
+    -fx-border-color: rgb(49.0, 89.0, 23.0);
+    -fx-border-radius: 5.0;
+    -fx-padding: 3.0 6.0 6.0 6.0;
+}
+.borders{
+    -fx-border-color: rgb(103.0, 100.0, 78.0);
+    -fx-border-style: dotted;
+    -fx-border-width: 0.3;
+    -fx-border-insets: -5.0;
+}

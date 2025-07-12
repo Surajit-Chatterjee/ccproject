@@ -1,0 +1,21 @@
+2025-07-03 16:20:21 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 16:20:21 - [Class: PlanDataPersister] [Method: refreshPlanTableView] [Line: 107] - class pt.cc.hmi.plan.PlanController Available plan in pool   
+1
+2
+6
+7
+8
+
+2025-07-03 16:20:24 - [Class: PlanDataPersister] [Method: openPlanCreateDialog] [Line: 71] - Plan Create Dialog Opened
+2025-07-03 16:20:24 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 16:20:27 - [Class: PlanDataPersister] [Method: getIntegerPropertyValue] [Line: 62] - Integer 40 class class java.lang.Integer
+2025-07-03 16:20:27 - [Class: PlanDataPersister] [Method: setPropertyValue] [Line: 49] -  Properties written to application.properties successfully. New Vlue 41
+2025-07-03 16:20:27 - [Class: PlanDataPersister] [Method: refreshPlanTableView] [Line: 107] - class pt.cc.hmi.plan.PlanController Available plan in pool   
+1
+2
+6
+7
+8
+9
+
+2025-07-03 16:20:27 - [Class: PlanDataPersister] [Method: addNewPlan] [Line: 60] - Plan 9 Added Successfully

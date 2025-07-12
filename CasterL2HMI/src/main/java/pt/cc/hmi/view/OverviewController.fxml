@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.cc.hmi.controller.overview.OverviewController">
+   <top>
+      <MenuBar prefHeight="39.0" prefWidth="1193.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Heat">
+            <items>
+              <MenuItem fx:id="createHeatMenuItem" mnemonicParsing="false" text="Create Heat" />
+                  <MenuItem fx:id="deleteHeatMenuItem" mnemonicParsing="false" text="Delete Heat" />
+                  <MenuItem fx:id="updateHeatMenuItem" mnemonicParsing="false" text="Update Heat" />
+                  <MenuItem fx:id="heatPlanAssignmentMenuItem" mnemonicParsing="false" text="Heat Plan Assignment" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+           <TableView fx:id="heatOverview" layoutY="40.0" prefHeight="121.0" prefWidth="1200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="40.0">
+              <columns>
+                <TableColumn fx:id="heatName" editable="false" prefWidth="242.0" sortable="false" text="Heat Name" />
+                <TableColumn fx:id="steelGrade" editable="false" prefWidth="129.0" sortable="false" text="Steel Grade" />
+                  <TableColumn fx:id="netWeight" editable="false" prefWidth="129.0" sortable="false" text="Net Weight" />
+                  <TableColumn fx:id="planName" editable="false" prefWidth="129.0" sortable="false" text="Plan" />
+                  <TableColumn fx:id="openTime" editable="false" prefWidth="129.0" sortable="false" text="Open Time" />
+                  <TableColumn fx:id="heatState" editable="false" prefWidth="242.0" sortable="false" text="State" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </top>
+         <center>
+            <AnchorPane prefHeight="607.0" prefWidth="1200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </center>
+   <bottom>
+      <BorderPane fx:id="strandInfoBorderPane" prefHeight="99.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <center>
+            <TableView fx:id="strandInfoView" prefHeight="99.0" prefWidth="1185.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="ColStrandNr" prefWidth="72.0" text="Strand Nr" />
+                  <TableColumn prefWidth="416.0" text="Mold">
+                     <columns>
+                        <TableColumn prefWidth="70.0" text="Mold Nr." />
+                        <TableColumn prefWidth="74.0" text="Mold Level" />
+                        <TableColumn prefWidth="89.0" text="??" />
+                        <TableColumn prefWidth="94.0" text="??" />
+                     </columns>
+                  </TableColumn>
+                <TableColumn maxWidth="800.0" prefWidth="800.0" text="Strand">
+                     <columns>
+                        <TableColumn maxWidth="1.7976931348623157E308" prefWidth="100.0" text="Total Moved Length" />
+                        <TableColumn maxWidth="100.0" minWidth="0.0" prefWidth="100.0" text="Residual Length" />
+                     </columns></TableColumn>
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </bottom>
+</BorderPane>

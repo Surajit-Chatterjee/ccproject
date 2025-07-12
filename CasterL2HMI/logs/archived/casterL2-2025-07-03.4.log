@@ -1,0 +1,8 @@
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 40] - [BaseHeat [heatName=8, steelGrade=Q235B, creationDate=Thu Jul 03 11:26:00 IST 2025, heatState=PLAN, heatId=41, planId=null, planName=null]] Written to file
+2025-07-03 16:20:16 - Starting application using Java 21.0.7 with PID 8712 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-03 16:20:16 - No active profile set, falling back to 1 default profile: "default"
+2025-07-03 16:20:17 - [Class: PropertyReader] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-03 16:20:17 - [Class: PropertyReader] [Method: lambda$0] [Line: 93] - Properties Key : heat.heatId Value 41
+2025-07-03 16:20:17 - [Class: PropertyReader] [Method: lambda$0] [Line: 93] - Properties Key : plan.planId Value 40
+2025-07-03 16:20:17 - [Class: DefaultCasterAdapter] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-03 16:20:17 - [Class: DefaultHeatPool] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool

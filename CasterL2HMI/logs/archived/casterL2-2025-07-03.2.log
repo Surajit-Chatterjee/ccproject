@@ -1,0 +1,8 @@
+2025-07-03 15:59:06 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 15:59:06 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-03 15:59:06 - CSS Error parsing file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css: Invalid color specification while parsing '-fx-background-color' at [14,39]
+2025-07-03 15:59:08 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 15:59:11 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-03 15:59:14 - [Class: PlanDataPersister] [Method: getIntegerPropertyValue] [Line: 62] - Integer 39 class class java.lang.Integer
+2025-07-03 15:59:14 - [Class: PlanDataPersister] [Method: setPropertyValue] [Line: 49] -  Properties written to application.properties successfully. New Vlue 40
+2025-07-03 15:59:14 - [Class: PlanDataPersister] [Method: addNewPlan] [Line: 60] - 8 Added Successfully

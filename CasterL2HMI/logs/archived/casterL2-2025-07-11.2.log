@@ -1,0 +1,888 @@
+2025-07-11 11:38:49 - Can not retrieve property 'ColOpenFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@117e94cc with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColOpenFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:39:13 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:39:28 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+3
+4
+
+2025-07-11 11:39:28 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 11:39:28 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:39:28 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+1 -- 1
+2 -- 2
+
+2025-07-11 11:39:28 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:40:40 - Starting application using Java 21.0.7 with PID 6140 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 11:40:40 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:40:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 11:40:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 11:40:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 11:40:41 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 11:40:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 11:40:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 11:40:41 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 11:40:41 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 11:40:41 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:40:41 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:40:41 - Started application in 1.726 seconds (process running for 2.417)
+2025-07-11 11:40:41 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:40:41 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 11:40:41 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 11:40:42 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:40:45 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:40:54 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+3
+4
+
+2025-07-11 11:40:54 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 11:40:54 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:40:54 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+1 -- 1
+2 -- 2
+
+2025-07-11 11:40:54 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:41:44 - Starting application using Java 21.0.7 with PID 10916 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 11:41:44 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:41:45 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 11:41:45 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 11:41:45 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 11:41:45 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 11:41:45 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 11:41:45 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 11:41:45 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 11:41:45 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 11:41:45 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:41:45 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:41:45 - Started application in 1.724 seconds (process running for 2.465)
+2025-07-11 11:41:45 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:41:45 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 11:41:45 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 11:41:46 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:41:49 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:41:54 - Can not retrieve property 'ColHeatFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@4bbd994b with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColHeatFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:41:54 - Can not retrieve property 'ColOpenFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@db185a0 with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColOpenFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:41:59 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+3
+4
+
+2025-07-11 11:41:59 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 11:41:59 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:41:59 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+1 -- 1
+2 -- 2
+
+2025-07-11 11:41:59 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=1, netWeight=1.0, steelGrade=Q235B, openTime=null, heatState=PLAN, heatId=75, planId=90, planName=1], BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:44:48 - Starting application using Java 21.0.7 with PID 10912 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 11:44:48 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:44:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 11:44:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 11:44:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 11:44:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 11:44:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 11:44:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 11:44:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 11:44:49 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 11:44:49 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:44:49 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:44:49 - Started application in 1.683 seconds (process running for 2.425)
+2025-07-11 11:44:49 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:44:49 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 11:44:49 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 11:44:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:44:52 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:44:58 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: deleteHeat] [Line: 73] - Heat 1 removed from Pool true
+2025-07-11 11:45:01 - Can not retrieve property 'ColHeatFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@2e9e4278 with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColHeatFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:45:01 - Can not retrieve property 'ColOpenFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@3268e1c8 with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColOpenFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:45:05 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+3
+4
+
+2025-07-11 11:45:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 11:45:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:45:05 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 2
+
+2025-07-11 11:45:05 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:47:30 - Starting application using Java 21.0.7 with PID 9152 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 11:47:30 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:47:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 11:47:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 11:47:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 11:47:31 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 11:47:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 11:47:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 11:47:31 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 11:47:31 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 11:47:31 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:47:31 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 11:47:31 - Started application in 1.859 seconds (process running for 2.576)
+2025-07-11 11:47:31 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:47:32 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 11:47:32 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 11:47:33 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:47:35 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 11:47:39 - Can not retrieve property 'ColHeatFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@6d1d8fe0 with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColHeatFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:47:39 - Can not retrieve property 'ColOpenFin' in PropertyValueFactory: javafx.scene.control.cell.PropertyValueFactory@55a31926 with provided class type: class pt.cc.heat.BaseHeat
+java.lang.IllegalStateException: Cannot read from unreadable property ColOpenFin
+	at javafx.base@21.0.7/com.sun.javafx.property.PropertyReference.get(PropertyReference.java:167)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.getCellDataReflectively(PropertyValueFactory.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:153)
+	at javafx.controls@21.0.7/javafx.scene.control.cell.PropertyValueFactory.call(PropertyValueFactory.java:132)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:592)
+	at javafx.controls@21.0.7/javafx.scene.control.TableColumn.getCellObservableValue(TableColumn.java:577)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.updateItem(TableCell.java:681)
+	at javafx.controls@21.0.7/javafx.scene.control.TableCell.indexChanged(TableCell.java:485)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell$1.invalidated(IndexedCell.java:85)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:130)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.updateCells(TableRowSkinBase.java:525)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkinBase.<init>(TableRowSkinBase.java:155)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableRowSkin.<init>(TableRowSkin.java:81)
+	at javafx.controls@21.0.7/javafx.scene.control.TableRow.createDefaultSkin(TableRow.java:213)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.doProcessCSS(Control.java:910)
+	at javafx.controls@21.0.7/javafx.scene.control.Control$1.doProcessCSS(Control.java:88)
+	at javafx.controls@21.0.7/com.sun.javafx.scene.control.ControlHelper.processCSSImpl(ControlHelper.java:68)
+	at javafx.graphics@21.0.7/com.sun.javafx.scene.NodeHelper.processCSS(NodeHelper.java:147)
+	at javafx.graphics@21.0.7/javafx.scene.Node.processCSS(Node.java:9555)
+	at javafx.graphics@21.0.7/javafx.scene.Node.applyCss(Node.java:9642)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1820)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getCell(VirtualFlow.java:1797)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3069)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.getOrCreateCellSize(VirtualFlow.java:3041)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow$5.invalidated(VirtualFlow.java:865)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.markInvalid(IntegerPropertyBase.java:113)
+	at javafx.base@21.0.7/javafx.beans.property.IntegerPropertyBase.set(IntegerPropertyBase.java:148)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualFlow.setCellCount(VirtualFlow.java:912)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.updateItemCount(TableViewSkinBase.java:580)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.checkState(VirtualContainerBase.java:183)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.VirtualContainerBase.layoutChildren(VirtualContainerBase.java:158)
+	at javafx.controls@21.0.7/javafx.scene.control.skin.TableViewSkinBase.layoutChildren(TableViewSkinBase.java:432)
+	at javafx.controls@21.0.7/javafx.scene.control.Control.layoutChildren(Control.java:612)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1208)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Parent.layout(Parent.java:1215)
+	at javafx.graphics@21.0.7/javafx.scene.Scene.doLayoutPass(Scene.java:594)
+	at javafx.graphics@21.0.7/javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2600)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:401)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.runPulse(Toolkit.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.Toolkit.firePulse(Toolkit.java:430)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:592)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:572)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:565)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$11(QuantumToolkit.java:352)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@21.0.7/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@21.0.7/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at pt.cc.hmi.config.ConfigUtil.invokeView(ConfigUtil.java:27)
+	at pt.cc.hmi.controller.overview.OverviewController.loadDeleteHeatDialog(OverviewController.java:283)
+	at pt.cc.hmi.controller.overview.OverviewController.lambda$5(OverviewController.java:156)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21.0.7/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.7/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-11 11:47:42 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+3
+4
+
+2025-07-11 11:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 11:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 11:47:42 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 2
+
+2025-07-11 11:47:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=91, planName=2]] Written to file
+2025-07-11 12:09:48 - Starting application using Java 21.0.7 with PID 6192 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:09:48 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:09:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:09:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:09:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:09:49 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 12:09:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:09:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:09:49 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:09:49 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:09:49 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:09:49 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:09:49 - Started application in 1.652 seconds (process running for 2.416)
+2025-07-11 12:09:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:09:50 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:09:50 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:09:51 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:09:56 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:07 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 4
+2025-07-11 12:10:09 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:12 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 3
+2025-07-11 12:10:13 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:15 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:17 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:21 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:28 - Resource "application.css" not found.
+2025-07-11 12:10:30 - [Class: pt.cc.plan.SimplePlanPool] [Method: removePlan] [Line: 130] - removePlan DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]]
+2025-07-11 12:10:30 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: planPoolEventPerformed] [Line: 177] - planPoolEventPerformed plan remove DefaultPlan [planId=92, planName=3, totalWeight=0.0, planCreationTime=Fri Jul 11 07:31:28 IST 2025, plannedProducts=[]]
+2025-07-11 12:10:30 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: lambda$3] [Line: 181] - Heat 2 will be modified no plan attached
+2025-07-11 12:10:30 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 3 Plan is UnAssigned from the Heat 2
+2025-07-11 12:10:32 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:35 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:38 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 2
+2025-07-11 12:10:41 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:44 - [Class: pt.cc.heat.impl.DefaultHeatPool] [Method: commit] [Line: 204] - Heat 2 Committed Successfully, Reason is 2 assigned with plan 4
+2025-07-11 12:10:45 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:51 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:10:52 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+
+2025-07-11 12:10:52 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:10:52 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:10:52 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:10:52 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:14:21 - Starting application using Java 21.0.7 with PID 2060 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:14:21 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:14:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:14:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:14:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:14:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 93
+2025-07-11 12:14:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:14:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:14:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:14:22 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:14:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:14:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:14:22 - Started application in 1.688 seconds (process running for 2.437)
+2025-07-11 12:14:22 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:14:23 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:14:23 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:14:25 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:14:31 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:14:36 - [Class: pt.cc.plan.SimplePlanPool] [Method: addNewPlan] [Line: 83] - Plan 5 Added Successfully
+2025-07-11 12:14:36 - [Class: pt.cc.plan.SimplePlanPool] [Method: copyPlan] [Line: 62] - originalDefPlan plan DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]] new Plan copiedPlan DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]]
+2025-07-11 12:14:39 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+
+2025-07-11 12:14:39 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:14:39 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:14:39 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:14:39 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:33:49 - Starting application using Java 21.0.7 with PID 12276 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:33:49 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:33:50 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:33:50 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:33:50 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:33:50 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 94
+2025-07-11 12:33:50 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:33:50 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:33:50 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:33:50 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:33:50 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:33:50 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:33:50 - Started application in 1.857 seconds (process running for 2.577)
+2025-07-11 12:33:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:33:50 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:33:50 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:33:51 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:33:53 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:33:58 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:34:07 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+
+2025-07-11 12:34:07 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:34:07 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:34:07 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:34:07 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:39:37 - Starting application using Java 21.0.7 with PID 392 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:39:37 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:39:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:39:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:39:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:39:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 95
+2025-07-11 12:39:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:39:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:39:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:39:38 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:39:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:39:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:39:38 - Started application in 1.879 seconds (process running for 2.606)
+2025-07-11 12:39:38 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:39:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:39:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:43 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:50 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:51 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:55 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:39:57 - [Class: pt.cc.plan.SimplePlanPool] [Method: addNewPlan] [Line: 83] - Plan 6 Added Successfully
+2025-07-11 12:39:57 - [Class: pt.cc.plan.SimplePlanPool] [Method: copyPlan] [Line: 62] - originalDefPlan plan DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]] new Plan copiedPlan DefaultPlan [planId=96, planName=6, totalWeight=0.0, planCreationTime=Fri Jul 11 12:39:57 IST 2025, plannedProducts=[]]
+2025-07-11 12:40:15 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:40:20 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+6
+
+2025-07-11 12:40:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]], DefaultPlan [planId=96, planName=6, totalWeight=0.0, planCreationTime=Fri Jul 11 12:39:57 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:40:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:40:20 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:40:20 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:49:56 - Starting application using Java 21.0.7 with PID 11712 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:49:56 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:49:57 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:49:57 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:49:57 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:49:57 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 96
+2025-07-11 12:49:57 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:49:57 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:49:57 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:49:57 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:49:57 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:49:57 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:49:57 - Started application in 1.814 seconds (process running for 2.559)
+2025-07-11 12:49:57 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:49:57 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:49:57 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:49:58 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:50:00 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+6
+
+2025-07-11 12:50:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]], DefaultPlan [planId=96, planName=6, totalWeight=0.0, planCreationTime=Fri Jul 11 12:39:57 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:50:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:50:00 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:50:00 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:50:37 - Starting application using Java 21.0.7 with PID 1568 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:50:37 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:50:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:50:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:50:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:50:38 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 96
+2025-07-11 12:50:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:50:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:50:38 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:50:38 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:50:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:50:38 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:50:38 - Started application in 1.763 seconds (process running for 2.427)
+2025-07-11 12:50:38 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:50:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:50:38 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:50:40 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:50:42 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+6
+
+2025-07-11 12:50:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]], DefaultPlan [planId=96, planName=6, totalWeight=0.0, planCreationTime=Fri Jul 11 12:39:57 IST 2025, plannedProducts=[]]] Written to file
+2025-07-11 12:50:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:50:42 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:50:42 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:51:21 - Starting application using Java 21.0.7 with PID 11928 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 12:51:21 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:51:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 12:51:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 19
+2025-07-11 12:51:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 12:51:22 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 96
+2025-07-11 12:51:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 12:51:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool
+2025-07-11 12:51:22 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 29] - Field caster annotation class jdk.proxy2.$Proxy38
+2025-07-11 12:51:22 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: init] [Line: 41] - file ser path E:\CasterL2\heats.ser
+2025-07-11 12:51:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.heat.persist.HeatDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:51:22 - [Class: pt.cc.adapters.persistence.file.FileDataReader] [Method: read] [Line: 48] - class pt.cc.plan.persist.PlanDataReader: reading back objects archived on  with version 1.0
+2025-07-11 12:51:22 - Started application in 1.681 seconds (process running for 2.394)
+2025-07-11 12:51:22 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:51:22 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/application.css
+2025-07-11 12:51:22 - Could not find stylesheet: file:/E:/Eclipse-SpringBoot-Maven/CasterL2HMI/target/mainView.css
+2025-07-11 12:51:23 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:51:34 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:51:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 6 is 4
+2025-07-11 12:51:42 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 6 Committed Successfully
+2025-07-11 12:51:49 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:52:00 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 144] - index of plan 6 is 4
+2025-07-11 12:52:00 - [Class: pt.cc.plan.SimplePlanPool] [Method: commitPlan] [Line: 146] - Plan 6 Committed Successfully
+2025-07-11 12:52:04 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:52:06 - Loading FXML document with JavaFX API of version 23.0.1 by JavaFX runtime of version 21.0.7
+2025-07-11 12:52:11 - [Class: pt.cc.plan.persist.PlanDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available plan in pool   
+1
+2
+4
+5
+6
+
+2025-07-11 12:52:11 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=90, planName=1, totalWeight=0.0, planCreationTime=Thu Jul 10 10:01:41 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=19, aimLength=1.0, minLength=1.0, maxLength=1.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=1]]], DefaultPlan [planId=91, planName=2, totalWeight=0.0, planCreationTime=Thu Jul 10 11:13:42 IST 2025, plannedProducts=[]], DefaultPlan [planId=93, planName=4, totalWeight=0.0, planCreationTime=Fri Jul 11 07:45:48 IST 2025, plannedProducts=[]], DefaultPlan [planId=94, planName=5, totalWeight=0.0, planCreationTime=Fri Jul 11 12:14:36 IST 2025, plannedProducts=[]], DefaultPlan [planId=96, planName=6, totalWeight=0.0, planCreationTime=Fri Jul 11 12:39:57 IST 2025, plannedProducts=[DefaultPlanProduct [planProductId=20, aimLength=11.0, minLength=11.0, maxLength=11.0, name=1, weight=0.0, width=200.0, thickness=200.0, strandNumber=1], DefaultPlanProduct [planProductId=22, aimLength=22.0, minLength=22.0, maxLength=22.0, name=1, weight=0.0, width=230.0, thickness=230.0, strandNumber=2]]]] Written to file
+2025-07-11 12:52:11 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 12:52:11 - [Class: pt.cc.heat.persist.HeatDataPersister] [Method: persist] [Line: 59] - At Predestroy : Available Heat in pool   
+2 -- 4
+
+2025-07-11 12:52:11 - [Class: pt.cc.adapters.persistence.file.FileDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=2, netWeight=2.0, steelGrade=K1890, openTime=null, heatState=PLAN, heatId=76, planId=93, planName=4]] Written to file
+2025-07-11 14:11:58 - Starting application using Java 21.0.7 with PID 5288 (started by SURAJIT in E:\Eclipse-SpringBoot-Maven\CasterL2HMI)
+2025-07-11 14:11:58 - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 14:11:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: init] [Line: 35] - appConfigPath E:\CasterL2\config.properties
+2025-07-11 14:11:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planProductId Value 22
+2025-07-11 14:11:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : heat.heatId Value 76
+2025-07-11 14:11:59 - [Class: pt.cc.util.generator.IdGeneratorAdapter] [Method: lambda$0] [Line: 91] - Properties Key : plan.planId Value 96
+2025-07-11 14:11:59 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.adapters.DefaultCasterAdapter
+2025-07-11 14:11:59 - [Class: pt.cc.adapters.AbstractInitializer] [Method: checkObject] [Line: 21] - checking object for targetAdapterObject class pt.cc.heat.impl.DefaultHeatPool

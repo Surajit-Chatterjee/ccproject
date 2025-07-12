@@ -1,0 +1,5 @@
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 33] - plans.ser Is present 
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 40] - [DefaultPlan [planId=29, planName=1, planCreationTime=Wed Jul 02 12:23:13 IST 2025], DefaultPlan [planId=30, planName=2, planCreationTime=Wed Jul 02 12:23:15 IST 2025], DefaultPlan [planId=35, planName=6, planCreationTime=Wed Jul 02 12:31:04 IST 2025], DefaultPlan [planId=36, planName=7, planCreationTime=Wed Jul 02 12:31:06 IST 2025], DefaultPlan [planId=40, planName=8, planCreationTime=Thu Jul 03 15:59:14 IST 2025]] Written to file
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 33] - heats.ser Is present 
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 40] - [BaseHeat [heatName=8, steelGrade=Q235B, creationDate=Thu Jul 03 11:26:00 IST 2025, heatState=PLAN, heatId=41, planId=null, planName=null]] Written to file
+2025-07-03 16:15:40 - [Class: PlanDataPersister] [Method: persist] [Line: 33] - heats.ser Is present 

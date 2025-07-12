@@ -1,0 +1,11 @@
+2025-07-03 16:21:43 - [Class: PlanDataPersister] [Method: persist] [Line: 58] - At Predestroy : Available plan in pool   
+1
+2
+6
+7
+8
+9
+10
+
+2025-07-03 16:21:43 - [Class: PlanDataPersister] [Method: persist] [Line: 35] - [DefaultPlan [planId=29, planName=1, planCreationTime=Wed Jul 02 12:23:13 IST 2025], DefaultPlan [planId=30, planName=2, planCreationTime=Wed Jul 02 12:23:15 IST 2025], DefaultPlan [planId=35, planName=6, planCreationTime=Wed Jul 02 12:31:04 IST 2025], DefaultPlan [planId=36, planName=7, planCreationTime=Wed Jul 02 12:31:06 IST 2025], DefaultPlan [planId=40, planName=8, planCreationTime=Thu Jul 03 15:59:14 IST 2025], DefaultPlan [planId=41, planName=9, planCreationTime=Thu Jul 03 16:20:27 IST 2025], DefaultPlan [planId=42, planName=10, planCreationTime=Thu Jul 03 16:21:10 IST 2025]] Written to file
+2025-07-03 16:21:43 - [Class: PlanDataPersister] [Method: persist] [Line: 35] - [BaseHeat [heatName=8, steelGrade=Q235B, creationDate=Thu Jul 03 11:26:00 IST 2025, heatState=PLAN, heatId=41, planId=null, planName=null]] Written to file
